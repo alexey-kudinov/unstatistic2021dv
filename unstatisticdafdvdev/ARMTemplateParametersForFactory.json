@@ -10,6 +10,9 @@
 		},
 		"unstatisticsqlsdvdevlinkedservice_connectionString": {
 			"value": ""
+		},
+		"unstatisticstac_connectionString": {
+			"value": ""
 		}
 	}
 }
