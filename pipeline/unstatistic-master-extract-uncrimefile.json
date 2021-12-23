@@ -118,7 +118,8 @@
 					"dataset": {
 						"referenceName": "dst_sql_dummy",
 						"type": "DatasetReference"
-					}
+					},
+					"firstRowOnly": true
 				}
 			},
 			{
