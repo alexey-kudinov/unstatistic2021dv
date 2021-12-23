@@ -12,7 +12,7 @@
 				"type": "AzureBlobStorageLocation",
 				"fileName": "WorldBankPopulation.csv",
 				"folderPath": "CrimeStat.Source.WorldBank",
-				"container": "unstatisticstacdvdev"
+				"container": "unstatistic-sourcefiles"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
