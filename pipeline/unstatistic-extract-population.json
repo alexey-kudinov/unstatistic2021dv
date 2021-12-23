@@ -786,48 +786,6 @@
 									"type": "String",
 									"physicalType": "nvarchar"
 								}
-							},
-							{
-								"sink": {
-									"name": "2018",
-									"type": "String",
-									"physicalType": "nvarchar"
-								}
-							},
-							{
-								"sink": {
-									"name": "2019",
-									"type": "String",
-									"physicalType": "nvarchar"
-								}
-							},
-							{
-								"sink": {
-									"name": "sysCreatedAt",
-									"type": "DateTime",
-									"physicalType": "datetime"
-								}
-							},
-							{
-								"sink": {
-									"name": "sysChangedAt",
-									"type": "DateTime",
-									"physicalType": "datetime"
-								}
-							},
-							{
-								"sink": {
-									"name": "sysCreatedBy",
-									"type": "Int32",
-									"physicalType": "int"
-								}
-							},
-							{
-								"sink": {
-									"name": "sysChangedBy",
-									"type": "Int32",
-									"physicalType": "int"
-								}
 							}
 						],
 						"typeConversion": true,
