@@ -1,5 +1,5 @@
 {
-	"name": "scr_csv_population",
+	"name": "src_csv_population",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "unstatisticstac",

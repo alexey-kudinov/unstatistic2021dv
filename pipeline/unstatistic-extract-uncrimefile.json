@@ -1,19 +1,12 @@
 {
-	"name": "unstatistic-extract-population",
+	"name": "unstatistic-extract-uncrimefile",
 	"properties": {
 		"description": "extract data csv file to SQL database",
 		"activities": [
 			{
-				"name": "Copy population to SQL",
+				"name": "Copy uncrimefile to SQL",
 				"type": "Copy",
-				"dependsOn": [
-					{
-						"activity": "SP PipelineExecutionHistory_Create",
-						"dependencyConditions": [
-							"Succeeded"
-						]
-					}
-				],
+				"dependsOn": [],
 				"policy": {
 					"timeout": "7.00:00:00",
 					"retry": 0,
@@ -849,7 +842,7 @@
 				"type": "SqlServerStoredProcedure",
 				"dependsOn": [
 					{
-						"activity": "Copy population to SQL",
+						"activity": "Copy uncrimefile to SQL",
 						"dependencyConditions": [
 							"Succeeded",
 							"Skipped"
@@ -914,7 +907,7 @@
 				"type": "SetVariable",
 				"dependsOn": [
 					{
-						"activity": "Copy population to SQL",
+						"activity": "Copy uncrimefile to SQL",
 						"dependencyConditions": [
 							"Failed"
 						]
