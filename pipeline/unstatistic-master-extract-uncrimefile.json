@@ -317,13 +317,13 @@
 			}
 		],
 		"variables": {
-			"container": {
+			"Container": {
 				"type": "String"
 			},
-			"filepath": {
+			"Path": {
 				"type": "String"
 			},
-			"filename": {
+			"FileName": {
 				"type": "String"
 			}
 		},
