@@ -224,22 +224,14 @@
 						"referenceName": "src_csv_uncrime_folder",
 						"type": "DatasetReference",
 						"parameters": {
-							"Container": {
-								"value": "@variables('container')",
-								"type": "Expression"
-							},
-							"Path": {
-								"value": "@variables('filepath')",
-								"type": "Expression"
-							}
+							"Container": "unstatistic-sourcefiles",
+							"Path": "CrimeStat.Source.UNCrime"
 						}
 					},
-					"fieldList": [
-						"childItems"
-					],
+					"fieldList": [],
 					"storeSettings": {
 						"type": "AzureBlobStorageReadSettings",
-						"recursive": true
+						"enablePartitionDiscovery": false
 					},
 					"formatSettings": {
 						"type": "DelimitedTextReadSettings"
@@ -271,7 +263,7 @@
 							"dependsOn": [],
 							"userProperties": [],
 							"typeProperties": {
-								"variableName": "filename",
+								"variableName": "FileName",
 								"value": {
 									"value": "@{item().name}",
 									"type": "Expression"
@@ -302,7 +294,7 @@
 										"type": "Expression"
 									},
 									"Path": {
-										"value": "@variables('filepath')",
+										"value": "@variables('Path')",
 										"type": "Expression"
 									},
 									"FileName": {
