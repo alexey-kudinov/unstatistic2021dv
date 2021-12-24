@@ -135,7 +135,7 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
-					"variableName": "container",
+					"variableName": "Container",
 					"value": {
 						"value": "@activity('Get configuration').output.firstrow.container",
 						"type": "Expression"
@@ -155,7 +155,7 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
-					"variableName": "filepath",
+					"variableName": "Path",
 					"value": {
 						"value": "@activity('Get configuration').output.firstrow.UNCrimepath",
 						"type": "Expression"
