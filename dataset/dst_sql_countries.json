@@ -2,7 +2,7 @@
 	"name": "dst_sql_countries",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "unstatisticsqlsdvdevlinkedservice",
+			"referenceName": "msbiazurelinkedservicekeyvault",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
